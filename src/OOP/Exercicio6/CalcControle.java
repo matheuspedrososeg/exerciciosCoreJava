@@ -6,6 +6,8 @@ public class CalcControle {
 
     }
     private double opera(double opn1, double opn2, char op) {
-        return Double.parseDouble(null);
+
+
+        return opn1 + op + opn2;
     }
 }
