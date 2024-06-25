@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class teste {
     public static void main(String[] args) {
 
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Quantas cidades tem em seu mapa?");
         int qtCidades = scanner.nextInt();

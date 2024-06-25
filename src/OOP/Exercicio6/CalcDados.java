@@ -6,11 +6,11 @@ public class CalcDados {
     double num1;
     char operacao;
 
-    public void setOperando(int i, double valor) { // funciona
+    public void setOperando(int i, double valor) {
         this.num = valor;
     }
 
-    public double getOperando(int i) { // funciona
+    public double getOperando(int i) {
         return this.num;
     }
 
