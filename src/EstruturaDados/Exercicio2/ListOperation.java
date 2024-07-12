@@ -1,14 +1,10 @@
 package EstruturaDados.Exercicio2;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class ListOperation<T> {
 
     private ListNode<T> inicio;
 
-    public void size() {
-    }
 
     public void add(T n) {
         ListNode node = new ListNode(n);
@@ -22,12 +18,13 @@ public class ListOperation<T> {
 
     }
 
-    public ListNode remove() {
-        return null;
+
+    public ListNode<T> getInicio() {
+        return inicio;
     }
 
-    public void print() {
-
+    public void setInicio(ListNode<T> inicio) {
+        this.inicio = inicio;
     }
 }
 

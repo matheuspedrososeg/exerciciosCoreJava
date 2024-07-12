@@ -12,6 +12,5 @@ public class Main {
         ListOperation<Integer> lista = new ListOperation<>();
         lista.add(1);
         lista.add(2, 1);
-        lista.print();
     }
 }
